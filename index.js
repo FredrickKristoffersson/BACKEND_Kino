@@ -14,5 +14,6 @@ app.get("/", async (request, response) => {
 });
 
 app.use("/static", express.static("./static"));
+app.use("/assets", express.static("./assets"));
 
 app.listen(5080);

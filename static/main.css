@@ -27,7 +27,7 @@
   padding: 0 50px;
 }
 .header__logo {
-  width: 100%;
+  width: auto;
   height: 150px;
 }
 .header__topNavigation {
@@ -112,6 +112,15 @@
   top: 25px;
   right: 25px;
   cursor: pointer;
+}
+
+.hero {
+  margin: 0;
+  padding: 0em 2em 3em 2em;
+}
+.hero__Image {
+  width: 100%;
+  border-radius: 5px;
 }
 
 .history {
