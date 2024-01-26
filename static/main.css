@@ -119,7 +119,11 @@
   padding: 0em 2em 3em 2em;
 }
 .hero__Image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
+  max-width: 1600px;
   border-radius: 5px;
 }
 
