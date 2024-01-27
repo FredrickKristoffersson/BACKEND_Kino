@@ -712,3 +712,36 @@ body {
     gap: 40px;
   }
 }
+
+.movieList {
+  text-decoration: none;
+  padding: 0em 0em 2em 2em;
+  list-style-type: none;
+}
+.movieList__movie {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+.movieList__movie:hover {
+  color: #860021d3;
+  border-bottom: solid #8600214a;
+}
+.backToMovies {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.561);
+  font-size: large;
+}
+.backToMovies:hover {
+  color: #800020;
+}
+.movie {
+  margin: 2em 0em;
+  color: white;
+}
+.intro {
+  margin-bottom: 2em;
+}
+.movie_Image {
+  max-width: 600px;
+}
