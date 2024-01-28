@@ -1,7 +1,6 @@
 import { expect, test } from "@jest/globals";
 import request from "supertest";
 import app from "../src/app";
-import { response } from "express";
 
 test("Correct title match Pulp Fiction movie", async () => {
   const response = await request(app).get("/movies/8");
