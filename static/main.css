@@ -712,6 +712,9 @@ body {
     gap: 40px;
   }
 }
+.allMovies {
+  margin-bottom: 8em;
+}
 
 .movieList {
   text-decoration: none;
